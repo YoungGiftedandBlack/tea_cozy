@@ -1,0 +1,33 @@
+.website_background {
+  background-color: black;
+}
+.header_hyperlinks {
+  text-decoration: underline;
+}
+.header {
+  position: fixed;
+}
+.the_mission {
+  background-image: url("../resources/images/img-mission-background.jpg");
+}
+.tea_of_the_month_images {
+  width: 300px; height: 200px;
+}
+.locations {
+  background-image: url("../resources/images/img-locations-background.jpg");
+}
+h2 {
+
+}
+h4 {
+
+}
+.downtown {
+ width: 300px; opacity: 1;
+}
+.east_bayside {
+  width: 300px; opacity: 1;
+}
+.oakdale {
+  width: 300px; opacity: 1;
+}
