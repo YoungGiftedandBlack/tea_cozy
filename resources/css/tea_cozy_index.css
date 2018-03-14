@@ -1,33 +1,127 @@
+/* Footer css starts here */
+/* Footer css ends here */
+/* Header css starts here */
+
+.header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+}
+/* Header css ends here */
+/* Text css starts here */
+
+.header_hyperlinks {
+  text-decoration: underline;
+  padding: 0px 15px;
+  font-size: 22px;
+  font-family: helvetica;
+  color: seashell;
+  text-decoration: underline;
+}
+
+#mission h2, #mission h4 {
+font-family: helvetica;
+padding: 0px;
+margin: 10px 0px;
+font-weight: 700;
+text-align: center;
+color: seashell;
+width: inherit;
+}
+
+#mission h4 {
+font-size: 22px;
+}
+
+#mission h2 {
+  font-size: 33px;
+}
+
+#mission_caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+  background-color: black;
+  width: inherit;
+}
+
+/* Text css ends here */
+/* General body css starts herer */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission {
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .website_background {
   background-color: black;
 }
-.header_hyperlinks {
-  text-decoration: underline;
-}
-.header {
-  position: fixed;
-}
-.the_mission {
-  background-image: url("../resources/images/img-mission-background.jpg");
-}
-.tea_of_the_month_images {
-  width: 300px; height: 200px;
-}
-.locations {
-  background-image: url("../resources/images/img-locations-background.jpg");
-}
-h2 {
 
-}
-h4 {
-
-}
 .downtown {
  width: 300px; opacity: 1;
 }
+
 .east_bayside {
   width: 300px; opacity: 1;
 }
+
 .oakdale {
   width: 300px; opacity: 1;
 }
+
+/* General body css ends here */
+/* Image css starts here */
+
+.the_mission {
+  background-image: url("../resources/images/img-mission-background.jpg");
+}
+
+.tea_of_the_month_images {
+  width: 300px; height: 200px;
+}
+
+.locations {
+  background-image: url("../resources/images/img-locations-background.jpg");
+}
+/* Image css ends here */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
