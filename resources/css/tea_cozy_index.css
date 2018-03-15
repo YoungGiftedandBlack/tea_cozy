@@ -1,4 +1,9 @@
 /* Footer css starts here */
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 /* Footer css ends here */
 /* Header css starts here */
 
@@ -25,6 +30,10 @@ nav {
 
 /* Header css ends here */
 /* Text css starts here */
+
+.details {
+  text-align: center;
+}
 
 .locations_container h2 {
   font-family: helvetica;
@@ -110,16 +119,24 @@ footer h5 {
   padding: 0px;
   margin: 0px;
 }
+
+.copyright p {
+  text-align: left;
+}
 /* Text css ends here */
 /* General body css starts herer */
+
+.copyright {
+  width: 100%;
+  display: flex;
+align-items: left;
+}
 
 body {
   padding: 0px;
   margin: 0px;
   background-color: black;
-  justify-content: center;
   align-items: center;
-  text-align: center;
   display: flex;
   flex-direction: column;
 }
