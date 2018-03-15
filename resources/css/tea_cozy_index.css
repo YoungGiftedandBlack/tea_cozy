@@ -2,16 +2,17 @@
 /* Footer css ends here */
 /* Header css starts here */
 
-.header {
+header {
+  display: flex;
   position: fixed;
   height: 69px;
   width: 100%;
-  z-index: 2;
-  display: flex;
+  z-index: 10;
   background-color: black;
   border-bottom: 1px solid seashell;
   padding: 0px;
   margin: 0px;
+  justify-content: space-between;
 }
 nav {
   display: flex;
@@ -21,8 +22,34 @@ nav {
   align-items: center;
   padding: 0px;
 }
+
 /* Header css ends here */
 /* Text css starts here */
+
+.locations_container h2 {
+  font-family: helvetica;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: seashell;
+  font-size: 33px;
+}
+
+.locations_container h3, .locations_container p {
+  font-family: helvetica;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: seashell;
+}
+
+.locations_container h3 {
+  font-size: 25.74px;
+}
+
+.locations_container p {
+  font-size: 22px;
+}
 
 .header_hyperlinks {
   text-decoration: underline;
@@ -61,14 +88,40 @@ font-size: 22px;
   width: inherit;
 }
 
+footer h2, footer h5 {
+  color: seashell;
+}
+
+footer h2 {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+footer h5 {
+  font-size: 18.26px;
+}
+
+.first_layer h4, .second_layer h4 {
+  color: seashell;
+  font-size: 22px;
+  font-family: helvetica;
+  text-align: center;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
 /* Text css ends here */
 /* General body css starts herer */
 
 body {
   padding: 0px;
   margin: 0px;
+  background-color: black;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #mission {
@@ -79,9 +132,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-.website_background {
-  background-color: black;
+  position: relative;
+  top: 70px;
 }
 
 .downtown {
@@ -96,19 +148,86 @@ body {
   width: 300px; opacity: 1;
 }
 
-/* General body css ends here */
-/* Image css starts here */
-
-.the_mission {
-  background-image: url("../resources/images/img-mission-background.jpg");
-}
-
-.tea_of_the_month_images {
-  width: 300px; height: 200px;
+.locations_container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .locations {
-  background-image: url("../resources/images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: row;
+  width: 920px;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  margin: 5px 10px;
+  background-color: black;
+  padding: 15px 5px;
+  height: 230px;
+  width: 270px;
+}
+
+.first_layer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.second_layer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.berry {
+display: flex;
+flex-direction: column;
+padding: 5px;
+}
+
+.spice {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.donut {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.myrtle {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.bizzare {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+/* General body css ends here */
+/* Image css starts here */
+
+.tea_of_the_month_images {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+
+}
+
+.locations_container {
+  background-image: url("../../resources/images/img-locations-background.jpg");
 }
 /* Image css ends here */
 /**/

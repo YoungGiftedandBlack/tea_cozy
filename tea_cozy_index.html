@@ -1,21 +1,29 @@
 <!doctype html>
+
+<!-- You can use max-width to allow for better website layout when screen is minimised -->
 <html>
   <head>
     <title>Tea Cozy</title>
     <link href="./resources/css/tea_cozy_index.css" type="text/css" rel="stylesheet">
+    <!-- Written by YoungGiftedandBlack -->
   </head>
-  <body class="website_background">
-
+  <body>
+    <div style="width: 100%;">
 <!-- Header starts here -->
-    <div class="header">
-      <img src="./resources/images/img-tea-cozy-logo.png" style="justify-content: left; height: 50px; padding-left: 10px; padding-top: 10px;">
-        <nav>
-          <p><a href="" class="header_hyperlinks">Mission</a></p>
-          <p><a href="" class="header_hyperlinks">Featured Tea</a></p>
-          <p><a href="" class="header_hyperlinks">Location</a></p>
-        </nav>
-    </div>
+      <header>
+        <div>
+          <img src="./resources/images/img-tea-cozy-logo.png" style="justify-content: left; height: 50px; padding-left: 10px; padding-top: 10px;">
+        </div>
+        <div>
+          <nav>
+            <p><a href="#" class="header_hyperlinks">Mission</a></p>
+            <p><a href="#" class="header_hyperlinks">Featured Tea</a></p>
+            <p><a href="#" class="header_hyperlinks">Location</a></p>
+          </nav>
+        </div>
+      <header>
 <!-- Header ends here -->
+    </div>
     <div id="mission">
 <!-- The Mission starts here -->
       <div id="mission_caption">
@@ -25,57 +33,79 @@
 <!-- The Mission ends here -->
     </div>
 <!-- Tea of the Month starts here -->
-    <div>
-      <h2>Tea of the Month</h2>
-      <h4>What's Steeping at the Tea Cozy?</h4>
-      <img src="./resources/images/img-berryblitz.jpg" class="tea_of_the_month_images">
-      <h4>Berry Blitz Tea</h4>
-      <img src="./resources/images/img-spiced-rum.jpg" class="tea_of_the_month_images">
-      <h4>Spiced Rum Tea</h4>
-      <img src="./resources/images/img-donut.jpg" class="tea_of_the_month_images">
-      <h4>Seasonal Donuts</h4>
-      <img src="./resources/images/img-myrtle-ave.jpg" class="tea_of_the_month_images">
-      <h4>Myrtle Ave Tea</h4>
-      <img src="./resources/images/img-bedford-bizarre.jpg" class="tea_of_the_month_images">
-      <h4>Bedford Bizzare Tea</h4>
-    </div>
-<!-- Tea of the Month ends here -->
-<!-- Locations start here -->
-    <div>
-      <h2>Locations</h2>
-<!-- Downtown starts here -->
-      <div>
-        <h3>Downtown</h3>
-        <p>384 West 4th Street</p>
-        <p>Suite 108</p>
-        <p>Portland, Maine</p>
+      <div style="padding: 40px 0px;">
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at the Tea Cozy?</h4>
+        <div class="first_layer">
+          <div class="berry">
+            <img src="./resources/images/img-berryblitz.jpg" class="tea_of_the_month_images">
+            <h4>Berry Blitz Tea</h4>
+          </div>
+          <div class="spice">
+            <img src="./resources/images/img-spiced-rum.jpg" class="tea_of_the_month_images">
+            <h4>Spiced Rum Tea</h4>
+          </div>
+          <div class="donut">
+            <img src="./resources/images/img-donut.jpg" class="tea_of_the_month_images">
+            <h4>Seasonal Donuts</h4>
+          </div>
+        </div>
+        <div class="second_layer">
+          <div class="myrtle">
+            <img src="./resources/images/img-myrtle-ave.jpg" class="tea_of_the_month_images">
+            <h4>Myrtle Ave Tea</h4>
+          </div>
+          <div class="bizzare">
+            <img src="./resources/images/img-bedford-bizarre.jpg" class="tea_of_the_month_images">
+            <h4>Bedford Bizzare Tea</h4>
+          </div>
+        </div>
       </div>
+<!-- Tea of the Month ends here -->
+<!-- Locations container start here -->
+    <div class="locations_container">
+      <h2>Locations</h2>
+<!-- Locations starts here -->
+      <div class="locations">
+<!-- Downtown starts here -->
+        <div class="address">
+          <h3>Downtown</h3>
+          <p>384 West 4th Street</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
 <!-- Downtown ends here -->
 <!--East Bayside starts here -->
-      <div>
-        <h3>East Bayside</h3>
-        <p>3433 Phisherman's Avenue</p>
-        <p>Northwest Corner</p>
-        <p>Portland, Maine</p>
-      </div>
+        <div class="address">
+          <h3>East Bayside</h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>Northwest Corner</p>
+          <p>Portland, Maine</p>
+        </div>
 <!-- East Bayside ends here -->
 <!-- Oakdale starts here -->
-      <div>
-        <h3>Oakdale</h3>
-        <p>515 Crescent Avenue</p>
-        <p>Second Floor</p>
-        <p>Portland, Maine</p>
-      </div>
+        <div class="address">
+          <h3>Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
 <!--Oakdale ends here -->
+      </div>
     </div>
-<!-- Locations ends here -->
+<!--Locations ends here -->
+<!-- Locations container ends here -->
 <!-- Footer starts here -->
     <div>
-      <h2>The Tea Cozy</h2>
-      <h5>contact@theteacozy.com</h5>
-      <h5>917-555-8904</h5>
+      <footer>
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+      </footer>
     </div>
 <!-- Footer ends here -->
-<p style="text-align: left">copyright The Tea Cozy 2017</p>
+    <div>
+      <p style="color: seashell; padding-left: 15px; text-align: left;">copyright The Tea Cozy 2017</p>
+    </div>
   </body>
 <html>
