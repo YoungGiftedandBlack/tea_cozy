@@ -31,6 +31,15 @@ nav {
 /* Header css ends here */
 /* Text css starts here */
 
+.copyright p {
+  color: seashell;
+  padding-left: 20px;
+  text-align: left;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 18.26px;
+}
+
 .details {
   text-align: center;
 }
@@ -123,6 +132,9 @@ header a {
 /* Text css ends here */
 /* General body css starts herer */
 
+.details {
+  height: 200px;
+}
 .copyright {
   width: 100%;
   display: flex;
@@ -178,17 +190,18 @@ body {
 .locations {
   display: flex;
   flex-direction: row;
-  width: 920px;
+  width: 980px;
   justify-content: center;
   align-items: center;
 }
 
 .address {
-  margin: 5px 10px;
+  margin: 15px 20px;
   background-color: black;
-  padding: 15px 5px;
+  padding: 0px;
   height: 230px;
-  width: 270px;
+  width: 300px;
+  opacity: 1;
 }
 
 .first_layer {
