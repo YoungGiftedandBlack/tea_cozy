@@ -136,6 +136,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #mission {
@@ -148,6 +149,8 @@ body {
   flex-wrap: wrap;
   position: relative;
   top: 70px;
+  margin: 0px;
+  border: 0px;
 }
 
 .downtown {
